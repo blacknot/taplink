@@ -1,0 +1,10 @@
+
+	.page-sort-helper {
+		font-size: 8px;
+	}
+	
+	@media (max-width: 991px) {
+		.page-sort-helper > div {
+			padding-left: 40px;
+		}
+	}
