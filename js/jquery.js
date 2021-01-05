@@ -1,1 +1,1 @@
-function initVars(){$mx.touch={isXS:screen.width<768||$mx(window).width()<768,isSM:768<=screen.width&&screen.width<992,isApplication:$mx.isset(window.navigator.standalone)&&window.navigator.standalone,isDevice:!1,isTouch:"ontouchstart"in window,initScroll:function(){},isIOS:null!=navigator.userAgent.match(/iphone|ipod|ipad/gi)}}initVars(),$mx(window).on("resize",initVars);
+
