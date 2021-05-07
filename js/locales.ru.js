@@ -1,1 +1,1 @@
-window.$app.defineLanguage("ru", 1, {"день":"день|дня|дней"});
+window.$app.defineLanguage("ru",1,{"день":"день|дня|дней"});
