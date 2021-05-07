@@ -1,1 +1,12 @@
-.is-product-checkbox+.is-product-checkbox{margin-left:1rem!important}@media (max-width:767px){.is-product-checkbox,.is-product-checkbox+.is-product-checkbox{width:100%;margin-left:0!important}}
+
+	.is-product-checkbox + .is-product-checkbox {
+		margin-left: 1rem !important;;
+	}
+	
+	@media (max-width: 767px) {
+		.is-product-checkbox,
+		.is-product-checkbox + .is-product-checkbox {
+			width: 100%;
+			margin-left: 0 !important;
+		}
+	}
