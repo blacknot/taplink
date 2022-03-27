@@ -1,1 +1,1 @@
-
+window.isMobileVk=-1!==document.referrer.indexOf("m.vk.com"),$(function(){$mx.lazy(["https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"],function(){vkBridge.send("VKWebAppInit");var e;window.isMobileVk||((e=function(){_.each([150,500,700],function(e){return setTimeout(function(){var e=$mx(".page.vue");e.length||(e=$mx(document.body));var n=Math.max(e.outerHeight(),500);vkBridge.send("VKWebAppResizeWindow",{width:1e3,height:n})},e)})})(),$events.on("contentupdated",e),$mx(window).on("resize",e))})});
